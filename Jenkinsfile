@@ -6,6 +6,9 @@ pipeline {
     }
 
 
+    foo = "bar"
+
+
     stages {
         stage('build') {
             steps {
