@@ -1,12 +1,12 @@
+def foo = "bar"
+
+
 pipeline {
     agent {
         docker {
             image 'maven:3-alpine'
         }
     }
-
-
-    foo = "bar"
 
 
     stages {
